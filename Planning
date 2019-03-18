@@ -1,0 +1,17 @@
+
+Game
+    - turn
+    def start_game
+
+Player
+    - lives
+    def lose_life
+
+
+Turn
+    - question(text, answer)
+    ask_question
+    answer_question
+    check_win
+    check_question
+    change_turn
